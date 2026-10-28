@@ -1,6 +1,6 @@
 # Thorium Browser Folder Recolor
 
-Recolor the bright yellow bookmark folder icons in **Thorium** (and other Chromium-based browsers) to a calmer, muted blue — with a single command that survives browser updates.
+Recolor the bright yellow bookmark folder icons in **Thorium** (and other Chromium-based browsers) to a calmer, muted blue - with a single command that survives browser updates.
 
 Instead of hard-coding resource IDs, the script scans `chrome_100_percent.pak` and `chrome_200_percent.pak`, detects small, mostly-yellow PNG icons by color, and shifts their hue. After an update, just run it again.
 
@@ -78,7 +78,7 @@ Only Windows has been tested by the author; if the folder differs on your system
 | `--min-share` | `0.6` | Minimum fraction of yellow pixels for an image to qualify |
 | `--max-size` / `--min-size` | `40` / `12` | Image side limits in px (covers 16 px and 32 px folders) |
 
-Example — a greyer, cooler blue:
+Example - a greyer, cooler blue:
 
 ```bash
 python recolor_folders.py --target-hue 200 --sat-scale 0.4 "C:\...\Thorium\Application\156.0.8078.28"
