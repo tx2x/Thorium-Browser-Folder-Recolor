@@ -109,4 +109,4 @@ The code was written using web version of Claude Sonnet 5.5 😁.
 
 ## License
 
-MIT
+[MIT](LICENSE)
